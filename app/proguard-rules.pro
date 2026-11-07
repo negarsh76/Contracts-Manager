@@ -1,0 +1,7 @@
+-keep class com.contracts.app.** { *; }
+-keep class org.apache.poi.** { *; }
+-dontwarn org.apache.poi.**
+-dontwarn org.apache.xmlbeans.**
+-dontwarn org.openxmlformats.**
+-keepattributes *Annotation*
+-keepattributes Signature
